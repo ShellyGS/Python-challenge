@@ -1,5 +1,6 @@
 
 import csv
+import os
 
 # Set the path to the CSV file
 Pypoll_csv = os.path.join('..','Resources','election_data.csv')
@@ -57,11 +58,4 @@ with open(output_file_path, "w") as file:
         file.write(Candidate + ": " + "{:.3f}".format(Vote_percent) + "% (" + str(Votes) + ")\n")
     file.write("-------------------------\n")
     file.write("Winner: " + Winner + "\n")
-    file.write("-------------------------\n")
-
-
-# In[ ]:
-
-
-
 
