@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
 
 #To create file paths across operating systems
 import csv
@@ -76,16 +71,4 @@ with open(output_file, "w") as file:
     file.write("Average Change: $" + "{:.2f}".format(average_change) + "\n")
     file.write("Greatest Increase in Profits: " + Greatest_increase[0] + " ($" + str(Greatest_increase[1]) + ")\n")
     file.write("Greatest Decrease in Profits: " + Greatest_decrease[0] + " ($" + str(Greatest_decrease[1]) + ")\n")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
